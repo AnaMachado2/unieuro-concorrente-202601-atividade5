@@ -29,13 +29,13 @@ O programa implementado visa resolver o problema de identificação de perguntas
 
 | Item                        | Descrição                                  |
 | --------------------------- | ------------------------------------------ |
-| Processador                 |  i5-11a Ger]                               |
-| Número de núcleos           | 4 núcleos / 12 threads]                    |
-| Memória RAM                 | [Preencher, ex: 16GB]                      |
-| Sistema Operacional         | [ Windows 11 ]                             |
+| Processador                 |  i7-11a Ger                                |
+| Número de núcleos           | 7 núcleos / 12 threads                     |
+| Memória RAM                 | 16GB                                       |
+| Sistema Operacional         | Windows 11                                 |
 | Linguagem utilizada         | Python                                     |
-| Biblioteca de paralelização | MPI (Message Passing Interface)            |
-| Compilador / Versão         | MPICC / GCC                                |
+| Biblioteca de paralelização | MPI 5                                      |
+| Compilador / Versão         | VSCODE                                     |
 
 ---
 
