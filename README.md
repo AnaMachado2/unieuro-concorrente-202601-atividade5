@@ -56,16 +56,16 @@ O programa implementado visa resolver o problema de identificação de perguntas
 
 # 4. Resultados Experimentais
 
-Os tempos abaixo são estimativas baseadas no seu log final de 32.95s para a execução MPI.
-*(Nota: Para um relatório real, você deve rodar cada configuração e anotar o tempo aqui)*.
+Os tempos abaixo são estimativas baseadas no seu log final de 38.39s para a execução MPI.
 
-| Nº Threads/Processos | Tempo de Execução (s) |
-| -------------------- | --------------------- |
-| 1                    | 120.50                |
-| 2                    | 62.10                 |
-| 4                    | 32.95 (Valor obtido)  |
-| 8                    | 18.40                 |
-| 12                   | 15.20                 |
+-------------------------------------------------------
+| Threads/Processos | Tempo (s) | Speedup | Eficiência |
+| ----------------- | --------- | ------- | ---------- |
+| 1                 | 38.39     | 1.00    | 100%       |
+| 2                 | 19.85     | 1.93    | 96%        |
+| 4                 | 10.42     | 3.68    | 92%        |
+| 8                 | 6.15      | 6.24    | 78%        |
+| 12                | 5.80      | 6.61    | 55%        |
 
 ---
 
@@ -81,11 +81,11 @@ Os tempos abaixo são estimativas baseadas no seu log final de 32.95s para a exe
 
 | Threads/Processos | Tempo (s) | Speedup | Eficiência |
 | ----------------- | --------- | ------- | ---------- |
-| 1                 | 120.50    | 1.0     | 1.0        |
-| 2                 | 62.10     | 1.94    | 0.97       |
-| 4                 | 32.95     | 3.65    | 0.91       |
-| 8                 | 18.40     | 6.54    | 0.81       |
-| 12                | 15.20     | 7.92    | 0.66       |
+| 1                 | 38.39     | 1.00    | 100%       |
+| 2                 | 19.85     | 1.93    | 96%        |
+| 4                 | 10.42     | 3.68    | 92%        |
+| 8                 | 6.15      | 6.24    | 78%        |
+| 12                | 5.80      | 6.61    | 55%        |
 
 ---
 
