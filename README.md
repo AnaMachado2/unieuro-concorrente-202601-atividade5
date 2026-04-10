@@ -89,6 +89,23 @@ Os tempos abaixo são estimativas baseadas no seu log final de 32.95s para a exe
 
 ---
 
+# 7. Gráfico de Execução
+
+(execução05.png)
+
+---
+
+# 8. Gráfico de Speedup
+
+(speedup05.png)
+
+---
+
+# 9. Gráfico de Eficiência
+
+(eficiência05.png)
+---
+
 # 10. Análise dos Resultados
 
 * **Speedup:** O speedup mostrou-se crescente, reduzindo o tempo de 120s para aproximadamente 33s (com 4 processos), aproximando-se do ganho linear esperado inicialmente.
