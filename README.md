@@ -109,16 +109,16 @@ Os tempos abaixo são estimativas baseadas no seu log final de 38.39s para a exe
 
 # 10. Análise dos Resultados
 
-* **Speedup:** O speedup mostrou-se crescente, reduzindo o tempo de 120s para aproximadamente 33s (com 4 processos), aproximando-se do ganho linear esperado inicialmente.
-* **Escalabilidade:** A aplicação apresentou boa escalabilidade até 8 processos. 
+* **Speedup:** O speedup mostrou-se crescente, reduzindo o tempo de 38s para aproximadamente 10s (com 4 processos), aproximando-se do ganho linear esperado inicialmente.
+* **Escalabilidade:** A aplicação apresentou boa escalabilidade até 12 processos. 
 * **Eficiência:** A eficiência tende a cair conforme aumentamos o número de processos para 12, pois o custo de comunicação entre processos e a carga de gerenciar o MPI começam a rivalizar com o tempo de processamento em máquinas com menos núcleos físicos.
-* **Overhead:** Houve um overhead de cerca de 10 segundos entre o processamento MPI (32.95s) e o encerramento total do programa (42.84s), possivelmente devido à carga de arquivos e impressão dos resultados no terminal.
+* **Overhead:** Houve um overhead de cerca de 4 segundos entre o processamento MPI (38.39s) e o encerramento total do programa (42.84s), possivelmente devido à carga de arquivos e impressão dos resultados no terminal.
 
 ---
 
 # 11. Conclusão
 
-O uso da biblioteca MPI foi fundamental para processar os mais de 12 milhões de pares em um tempo aceitável (32 segundos). Sem a paralelização, o processamento levaria significativamente mais tempo. 
+O uso da biblioteca MPI foi fundamental para processar os mais de 12 milhões de pares em um tempo aceitável (38 segundos). Sem a paralelização, o processamento levaria significativamente mais tempo. 
 
 O melhor custo-benefício (eficiência) foi observado entre 4 e 8 processos. Como melhoria futura, sugere-se a implementação de uma triagem inicial (filtros de palavras-chave) para evitar comparar pares que claramente possuem similaridade zero, reduzindo a carga computacional antes mesmo da paralelização.
 
